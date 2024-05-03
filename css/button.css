@@ -1,0 +1,162 @@
+@charset "utf-8";
+
+
+button {
+    display: inline-block;
+    background: none;
+    border: 1px solid #333;
+    padding: 2vh 5vw;
+    cursor: pointer;
+    font-size: calc(0.56vw + 15px);
+    margin-top:8vh;
+
+}
+
+
+button span {
+    position: relative;
+    transition: 0.5s;
+}
+
+
+button span:after {
+    content: '>>';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -2vw;
+    transition: 0.5s;
+    color: #fff;
+}
+
+
+button:hover {
+    background-color: #81d8d0;
+    color: #fff;
+    border: none;
+}
+
+
+button:hover span {
+    padding-right: 25px;
+}
+
+
+button:hover span::after {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+/* about button */
+.about_wrap_btm button {
+    display: inline-block;
+    background: none;
+    border: 1px solid #fff;
+    padding: 2vh 4vw;
+    cursor: pointer;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-top:0;
+
+}
+
+.about_wrap_btm button span {
+    color:#fff;
+    position: relative;
+    transition: 0.5s;
+    margin-top: 0;
+    font-size: calc(0.56vw + 15px);
+}
+
+
+.about_wrap_btm button span:after {
+    content: '>>';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -2vw;
+    transition: 0.5s;
+    color: #fff;
+}
+
+
+.about_wrap_btm button:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    border: none;
+}
+
+
+.about_wrap_btm button:hover span {
+    padding-right: 25px;
+}
+
+
+.about_wrap_btm button:hover span::after {
+    opacity: 1;
+}
+
+
+
+
+
+/* tablewear button */
+.tablewear button {
+    display: inline-block;
+    background: none;
+    border: 1px solid #333;
+    padding: 3vh 4vw;
+    cursor: pointer;
+    text-align: center;
+    margin-top:10vh;
+
+
+
+}
+
+.tablewear button span {
+    position: relative;
+    transition: 0.5s;
+    margin-top: 0;
+    font-size: calc(0.56vw + 15px);
+}
+
+
+.tablewear button span:after {
+    content: '>>';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -2vw;
+    transition: 0.5s;
+    color: #fff;
+}
+
+
+.tablewear button:hover {
+    background-color: #81d8d0;
+    color: #fff;
+    border: none;
+}
+
+
+.tablewear button:hover span {
+    padding-right: 25px;
+}
+
+
+.tablewear button:hover span::after {
+    opacity: 1;
+}
+
+

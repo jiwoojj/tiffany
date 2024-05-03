@@ -1,0 +1,137 @@
+
+/* 큰 태블릿 크기 */
+@media screen and (max-width:1028px){
+    footer .right_wrap_inner ul {
+        padding: 0;
+    }
+
+
+    footer .left_wrap1 p {
+        margin: 20px 0;
+        font-size: 20px;
+    }
+
+    footer .right_wrap_inner li {
+        margin-top: 2vh;
+        font-size:15px;
+    }
+
+    footer .right_wrap_inner p {
+        font-size: 20px;
+
+    }
+
+    .footer_wrap_bt {
+        font-size: 15px;
+    }
+
+    footer .right_wrap {
+        width: 60%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(1, 1fr 3fr);
+    }
+}
+
+
+
+/* 큰 모바일 크기  */
+@media screen and (max-width:768px){
+
+
+
+    footer {
+       height:auto;
+    }
+
+    .footer_wrap_top {
+        width: 100%;
+        height: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction:column;
+    }
+
+
+    footer .inner {
+       max-width:100vw;
+        display: grid;
+        grid-template-columns:  repeat(2, 1fr);
+        grid-template-rows:1fr;
+    }
+
+
+    footer .left_wrap1 {
+        padding: 3vh 3vw;
+    }
+
+
+    footer .left_wrap1 p {
+        margin: 10px 0;
+        font-size: 20px;
+    }
+
+    footer .left_wrap2 {
+        padding: 5vh 0;
+    }
+
+    footer .country {
+        margin-top: 4vh;
+    }
+
+
+
+    footer .social_icon li {
+        font-size: 30px;
+        margin-right: 3vw;
+    }
+
+
+
+    footer .right_wrap {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(1, 1fr 3fr);
+    }
+
+
+    .search{
+        width:100%;
+    }
+
+
+    .search input {
+        width: 70%;
+        height: 50%;
+        background: none;
+        border: 1px solid #fff;
+        font-size: 10px;
+        padding: 0 10px;
+        margin-left:3vw;
+        margin-top:3vh;
+    }
+
+
+    footer .right_wrap_inner {
+        margin-top: 0;
+        padding-bottom: 5vh;
+    }
+    
+
+    footer .right_wrap_inner div{
+        padding:0vh 5vw;
+    }
+
+
+    footer .right_wrap_inner p {
+        font-size: 15px;
+    }
+
+
+    footer .right_wrap_inner li {
+        margin-top: 2vh;
+        font-size: 13px;
+    }
+}
