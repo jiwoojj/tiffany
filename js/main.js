@@ -205,7 +205,16 @@ jQuery(document).ready(function () {
 
 
 
+    // scroll_top
+    $('.scroll_top > a').on('click', function () {
+        var $this = $(this);
+        var href = $this.attr('href');
 
+        $('html, body').animate({
+            scrollTop: $(href).offset().top
+        }, 450);
+        return false;
+    });
 
 
 
