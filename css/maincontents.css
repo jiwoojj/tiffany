@@ -1,32 +1,30 @@
+@media screen and (max-width:1280px) {
 
-
-@media screen and (max-width:1280px){
-
-    .newproduct .new_right .img_wrap img{
-        width:80%;
-        margin-left:100px;
+    .newproduct .new_right .img_wrap img {
+        width: 80%;
+        margin-left: 100px;
     }
 
 
-    .newproduct .new_right .img_wrap .img_2>img{
-       display:none;
+    .newproduct .new_right .img_wrap .img_2>img {
+        display: none;
     }
 
 
 
-    .newproduct .new_right{
-      margin-left:0;
-      margin-top:-200px;
+    .newproduct .new_right {
+        margin-left: 0;
+        margin-top: -200px;
     }
 
 
-    .newproduct .active{
-       margin-top:0;
-       opacity:1;
+    .newproduct .active {
+        margin-top: 0;
+        opacity: 1;
     }
-    
-    
-    
+
+
+
 
 
 
@@ -34,7 +32,7 @@
 
 
 /* 큰 태블릿 크기 */
-@media screen and (max-width:1028px){
+@media screen and (max-width:1028px) {
 
 
     /* mainslide */
@@ -42,12 +40,12 @@
         background: url("../img/mainpage/mainslide/1.jpg")no-repeat fixed center;
         background-size: cover;
     }
-    
+
     .slide_2 {
         background: url("../img/mainpage/mainslide/2.webp")no-repeat fixed center;
         background-size: cover;
     }
-    
+
     .slide_3 {
         background: url("../img/mainpage/mainslide/3.jpg")no-repeat fixed center;
         background-size: cover;
@@ -56,37 +54,37 @@
 
 
     /* section3(new product) */
-    .newproduct{
-        height:40vh;
-     
+    .newproduct {
+        height: 40vh;
+
     }
 
-    .newproduct .new_left{
-        width:100%;
-        text-align:center;
-        padding:5vh 0;
-      
+    .newproduct .new_left {
+        width: 100%;
+        text-align: center;
+        padding: 5vh 0;
+
     }
 
-    .newproduct .new_right{
-        display:none;
-        width:0;
+    .newproduct .new_right {
+        display: none;
+        width: 0;
     }
 
 
 
     /* section4 (jewelry) */
 
-    .jewelry .category .cate_wrap div{
-        width:50%;
-        padding:5vh 0;
+    .jewelry .category .cate_wrap div {
+        width: 50%;
+        padding: 5vh 0;
     }
-    
+
 
 
     /* section6 (tablewear) */
-    .tablewear_wrap .block{
-        display:none;
+    .tablewear_wrap .block {
+        display: none;
     }
 
 
@@ -107,16 +105,16 @@
     }
 
 
-    .tablewear_wrap .right_wrap{
+    .tablewear_wrap .right_wrap {
         background: url(../img/mainpage/tablewear/1.jpg)no-repeat;
         background-size: cover;
         width: 80%;
-        height:80%;
-       margin:8vh 0;
+        height: 80%;
+        margin: 8vh 0;
         overflow: hidden;
     }
-    
-    
+
+
 
 }
 
@@ -126,39 +124,39 @@
 
 
 /* 큰 모바일 크기  */
-@media screen and (max-width:768px){
+@media screen and (max-width:768px) {
 
 
 
 
     /* section1 (designers) */
-    .con1_wrap_right .title2 p{
-        display:none;
+    .con1_wrap_right .title2 p {
+        display: none;
     }
 
 
 
 
     /* section5 (about) */
-    .about_wrap_top .text{
-        padding:3vh 0;
+    .about_wrap_top .text {
+        padding: 3vh 0;
     }
 
 
 
-    .about_wrap_top .text p{
-        padding: 1vh 6vw; 
+    .about_wrap_top .text p {
+        padding: 1vh 6vw;
         font-size: calc(0.56vw + 15px);
     }
 
 
     /* section6 (tablewear) */
     .tablewear p {
-        display:none;
+        display: none;
     }
 
 
- 
+
     .tablewear_wrap {
         width: 100%;
         height: auto;
@@ -170,30 +168,30 @@
 
 
     .tablewear_wrap .left_wrap {
-      text-align:center;
-      width:100%;
-      height:30vh;
-      padding:5vh 0;
-      margin-left:0;
-      margin-top:0;
-      opacity:1;
-    }
-
-
- 
-
-    .tablewear_wrap button{
-        margin-top:3vh;
+        text-align: center;
+        width: 100%;
+        height: 30vh;
+        padding: 5vh 0;
+        margin-left: 0;
+        margin-top: 0;
+        opacity: 1;
     }
 
 
 
-    .tablewear_wrap .right_wrap{
+
+    .tablewear_wrap button {
+        margin-top: 3vh;
+    }
+
+
+
+    .tablewear_wrap .right_wrap {
         background: url(../img/mainpage/tablewear/1.jpg)no-repeat;
         background-size: cover;
         width: 80%;
-        height:80%;
-       margin:0 auto;
+        height: 80%;
+        margin: 0 auto;
         overflow: hidden;
     }
 
@@ -208,7 +206,7 @@
 
 
 
-    
+
 
 
 }
@@ -216,91 +214,91 @@
 
 
 /* 일반적인 모바일 크기 */
-@media screen and (max-width:550px){
+@media screen and (max-width:550px) {
 
     /* mainslide */
     .slide {
-        width:100%;
+        width: 100%;
         height: 80vh;
         overflow: hidden;
         position: relative;
     }
 
 
-    .scroll_down{
-        width:100%;
-        text-align:center;
-        font-size:18px;
-        z-index:9;
+    .scroll_down {
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+        z-index: 9;
         cursor: pointer;
-        position:absolute;
-        top:60vh;
-        padding:10px 0;
-        color:#fff;
-        
+        position: absolute;
+        top: 60vh;
+        padding: 10px 0;
+        color: #fff;
+
     }
 
 
     /* section1 (designers) */
-    .con1_wrap{
+    .con1_wrap {
         width: 100%;
         height: 30vh;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(1, 1fr 2fr);
-    
+
     }
 
 
-    .con1_wrap_left{
-       display:none;
-    }
-    
-
-
-    .con1_wrap_right{
-        order:-1;
-        height:30vh;
-        padding:0;
-    }
-
-
-    .con1_wrap_right button{
-        margin-top:4vh;
+    .con1_wrap_left {
+        display: none;
     }
 
 
 
+    .con1_wrap_right {
+        order: -1;
+        height: 30vh;
+        padding: 0;
+    }
 
-     /* section4 (jewelry) */
-    .jewelry .category .cate_wrap div{
-        width:100%;
+
+    .con1_wrap_right button {
+        margin-top: 4vh;
+    }
+
+
+
+
+    /* section4 (jewelry) */
+    .jewelry .category .cate_wrap div {
+        width: 100%;
     }
 
 
 
 
     /* section5  */
-    .about_wrap_top .img{
-        display:none;
+    .about_wrap_top .img {
+        display: none;
     }
 
 
-    .about_wrap_btm{
-        height:20vh;
+    .about_wrap_btm {
+        height: 20vh;
     }
 
 
-    .about_wrap_btm button{
-        width:80%;
+    .about_wrap_btm button {
+        width: 80%;
         padding: 2vh 0;
     }
-    
 
-    
+
+
     /* section6 (tablewear)*/
-    .tablewear_wrap .right_wrap{
-        display:none;
+    .tablewear_wrap .right_wrap {
+        display: none;
     }
 
 
@@ -314,6 +312,6 @@
         overflow: hidden;
     }
 
-    
+
 
 }

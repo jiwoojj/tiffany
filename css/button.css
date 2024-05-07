@@ -8,7 +8,7 @@ button {
     padding: 2vh 5vw;
     cursor: pointer;
     font-size: calc(0.56vw + 15px);
-    margin-top:8vh;
+    margin-top: 8vh;
 
 }
 
@@ -66,12 +66,12 @@ button:hover span::after {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    margin-top:0;
+    margin-top: 0;
 
 }
 
 .about_wrap_btm button span {
-    color:#fff;
+    color: #fff;
     position: relative;
     transition: 0.5s;
     margin-top: 0;
@@ -118,7 +118,7 @@ button:hover span::after {
     padding: 3vh 4vw;
     cursor: pointer;
     text-align: center;
-    margin-top:10vh;
+    margin-top: 10vh;
 
 
 
@@ -158,5 +158,3 @@ button:hover span::after {
 .tablewear button:hover span::after {
     opacity: 1;
 }
-
-
